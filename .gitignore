@@ -11,11 +11,8 @@ toprettier.bat
 # config files
 users/*.json
 server/*.json
-public/*.json
 McserverConfig.json
-core/*.json
-public/common/URL.js
-property.js
+
 
 tmp_upload/
 out/
