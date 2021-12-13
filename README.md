@@ -52,7 +52,7 @@ Windows 7 以上，64 位操作系统。
 构建 & 运行 
 -----------
 
-前提条件（Windows）
+**前提条件（Windows）**
 
 - Visual Studio 2017 IDE
 - Visual Studio 2017 C++ 桌面开发套件
@@ -62,11 +62,11 @@ Windows 7 以上，64 位操作系统。
 - Python 3.10.0
 
 
-理论前提条件
+**理论前提条件**
 
 您在安装 NodeJS 时，最后一步会有一个“安装可选编译工具”的选项，使用此配置后 NodeJS 会自动下载并安装 C++，Python 等编译环境，您可以尝试。
 
-构建并运行
+**构建并运行**
 
 ```
 git clone git@github.com:Suwings/MCSManager-V8-EXE.git
