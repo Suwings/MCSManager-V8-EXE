@@ -51,12 +51,32 @@ Windows 7 以上，64 位操作系统。
 
 构建 & 运行 
 -----------
+
+前提条件（Windows）
+
+- Visual Studio 2017 IDE
+- Visual Studio 2017 C++ 桌面开发套件
+- Visual Studio 2017 通用 Windows 开发套件
+- Visual Studio 2017 .Net 开发套件（可选）
+- Node v14.18.1
+- Python 3.10.0
+
+
+理论前提条件
+
+您在安装 NodeJS 时，最后一步会有一个“安装可选编译工具”的选项，使用此配置后 NodeJS 会自动下载并安装 C++，Python 等编译环境，您可以尝试。
+
+构建并运行
+
 ```
 git clone git@github.com:Suwings/MCSManager-V8-EXE.git
 cd MCSManager-V8-EXE
 npm install
 npm run app
 ```
+
+如果您依然未能成功构建并运行程序，请参考 https://www.electronjs.org/zh/docs/latest/tutorial/quick-start#scaffold-the-project
+
 
 打包成 EXE
 -----------
